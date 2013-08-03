@@ -1,0 +1,284 @@
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #b9b9b9;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #ccc;
+	background-image: url(../images/body.jpg);
+	background-repeat: repeat;
+}
+
+a, a:link, a:visited { color: #da9d0c; font-weight: bold; text-decoration: underline; }
+a:hover { color: #99FF00; text-decoration: none; }
+
+p { margin: 0px; padding: 0; }
+img { border: none; }
+
+ul { margin: 0; padding: 0; }
+ul li { margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { color: #000; }
+h1 { font-size: 30px; font-weight: normal; margin: 0 0 20px 0; padding: 5px 0; color: #9b9b9b; }
+h2 { font-size: 24px; font-weight: normal; margin: 0 0 20px 0; padding: 10px 0 15px 0; color: #fff; }
+h3 { font-size: 20px; font-weight: normal; margin: 0 0 15px 0; padding: 0; padding: 0 0 10px 0; }
+h4 { font-size: 18px; margin: 0 0 20px 0; padding: 0 0 10px 0; ; }
+h5 { font-size: 16px; margin: 0 0 10px 0; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.hr_divider { background: url(../images/hr_divider.jpg) bottom repeat-x; }
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.image_wrapper { display: inline-block; padding: 4px; border: 1px solid #666; background: none; margin-bottom: 10px; }
+.image_fl { float: left; margin: 3px 15px 0 0; }
+.image_fr { float: right; margin: 3px 0 0 15px; }
+
+blockquote { font-style: italic; margin-left: 10px;}
+cite { font-weight: bold; color:#3b3823; }
+cite span { color: #696443; }
+em { color: #e55822; }
+
+a.continue { color: #F00; font-weight: bold; text-decoration: none; }
+
+#main_header {
+	width: 1024px;
+	padding: 0;
+	margin: 0 auto 20px auto;
+	
+}
+
+#site_title {
+	float: left;
+	width: 1024px;
+	height: 260px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#site_title a {
+	display: block;
+	width: 1024px;
+	height: 260px;
+	margin: 0px;
+	padding: 130px 0px 0 170px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+	background: url(../images/img04.png) no-repeat top left;	
+}
+
+#header_right {
+	float: right;
+	width: 260px;
+	padding-top: 30px;
+	text-align: right;
+}
+
+
+/* menu */
+
+#menu_wrapper {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background: url(../images/menu_wrapper.jpg) repeat-x;
+}
+
+#menu {
+	width: 984px;
+	height: 50px;
+	padding: 0 20px;
+	margin: 0 auto;
+	background: #262626;
+}
+
+#menu ul {
+	height: 33px;
+	margin: 0;
+	padding: 8px 0 0 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+#menu ul li a {
+	position: relative;
+	float: left;
+	display: block;
+	height: 26px;
+	padding: 7px 28px;
+	font-size: 15px;
+	color: #fff;	
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
+	outline: none;
+}
+
+#menu ul li a:hover, #menu ul .current {
+	color: #fff;
+	*background: url(../images/menu_right.jpg) no-repeat top right;
+}
+
+#menu ul li a:hover span, #menu ul .current span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5px;
+	height: 33px;
+	*background: url(../images/menu_left.jpg) no-repeat;
+}
+
+
+/* end of menu */
+
+/* main */
+
+#main {
+	clear: both;
+	position: relative;
+	width: 964px;
+	padding: 0 30px 50px;
+	margin: 0 auto;
+	background: #272727 url(../images/content_top.jpg) top no-repeat;
+}
+
+
+
+#content_main {
+	float: left;
+	width: 600px;
+	padding: 30px 30px 0px 0;
+	border-right: 1px dashed #363636;
+}
+
+#content {
+	float: left;
+	width: 980px;
+	padding: 30px 30px 0px 0;
+	text-align:justify;
+}
+
+#content_main h1 span {
+	color: #20c4d3;
+}
+
+#content h1 span {
+	color: #20c4d3;
+}
+
+#content h5 {
+	color: #20c4d3;
+}
+
+
+.content_box {
+	padding: 30px;
+	border-bottom: 1px dashed #363636;
+}
+
+
+
+.header a { color: #FFFFFF; font-weight: normal; text-decoration: none; }
+.header a:hover { color: #999999; }
+
+.header .tag { font-size: 11px; color: #999999; }
+.header .tag a { font-size: 11px; color: #666666; }
+.header .tag a:hover { color: #CCCCCC; }
+
+.header h2 { margin: 0; padding: 5px 0; }
+.header .posted_date { position: absolute; font-size: 11px; color: #2b2b2b; top: 0; right: 0; width: 45px; height: 45px; padding: 8px 3px 0 0; text-align: center; background:url(../images/templatemo_date.jpg) no-repeat;
+}
+.header .posted_date strong { display: block; margin-top: 5px; }
+
+.post_box img { width: 108px; height: 108px; border: 5px solid #fff; float: left; margin-right: 30px; }
+.post_box .pb_right { float: right; width: 450px; }
+.post_box .comment a { display: block; margin-top: 15px; background: url(../images/comment.jpg) no-repeat bottom left; padding: 3px 0 0 25px; }
+
+#sidebar {
+	float: right;
+	width: 280px;
+}
+
+.sidebar_box {
+	clear: both;
+}
+
+.sidebar_box h3 {
+	width: 190px;
+	height: 38px;
+	margin: 0;
+	padding: 42px 0 0 90px;
+	color: #fff;
+	background: url(../images/side_header.png) no-repeat left top;;
+}
+
+.sidebar_box a { text-decoration: none; color: #b9b9b9; }
+
+.sidebar_box .sb_content {
+	padding: 20px;
+}
+
+.sidebar_menu { margin: 0; padding: 0; list-style: none; }
+.sidebar_menu li { margin: 0 0 5px 0; padding: 3px 0; border-bottom: 1px solid #303030 }
+.sidebar_menu li a { text-decoration: none; font-size: 11px; font-weight: normal; background: url(../images/list.jpg) no-repeat top left; display: block; padding-left: 20px;}
+#sidebar a:hover {
+	text-decoration: underline;
+}
+.sidebar_menu li a span { color: #f00; }
+
+/* end of main */
+
+
+
+/* footer */
+
+#footer {
+	clear: both;
+	width: 1024px;
+	padding: 0;
+	margin: 0 auto 20px auto;
+	color: #999999;
+	text-align: center;
+	background: url(../images/footer.png) no-repeat;
+}
+
+
+/* end of footer */
+#flashmo_gallery{width: 940px;
+	height: 600px;
+	margin: 0 auto;
+
+}
+
+ul#menu1 {
+	
+}
+ul#menu1 li{
+    position:relative; /* allows us to set the z-index */
+    z-index:5; /* raises the z-index of the line item 5 levels all other elements */
+	height: 33px;
+
+}
+ul#menu1 li.backLava {
+    *background: url(../images/menu_left.jpg) no-repeat;
+    background-color:#000000;
+	*background: url(../images/menu_right.jpg) no-repeat;		
+}

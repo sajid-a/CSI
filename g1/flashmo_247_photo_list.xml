@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	
+	<config
+		folder="photos/"
+		enable_fullscreen="true"
+		galaxy_background="true"
+		show_tooltip="true"
+		radius="440"
+		default_zoom="5"		
+
+		thumbnail_width="100"
+		thumbnail_height="100"
+		thumbnail_back_alpha="0.25"
+		
+		photo_border_size="10"
+		photo_border_color="#FFFFFF"
+		
+		close_button="true"
+		previous_button="true"
+		next_button="true"
+		
+		description="true"
+		description_bg_color="#000000"
+		description_bg_alpha="0.6"
+		css_file="flashmo_210_style.css"
+		tween_duration="0.5">
+	</config>
+	
+	<photo>
+		<thumbnail>s_impulse.jpg</thumbnail>
+		<filename>impulse.jpg</filename>
+		<tooltip>Poster for Impulse</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	
+	<photo>
+		<thumbnail>s_IMG_2589.jpg</thumbnail>
+		<filename>IMG_2589.jpg</filename>
+		<tooltip>Career Counselling</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+	<photo>
+		<thumbnail>s_IMG_2594.jpg</thumbnail>
+		<filename>IMG_2594.jpg</filename>
+		<tooltip>Career Counselling</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+
+	<photo>
+		<thumbnail>s_Picture_025.jpg</thumbnail>
+		<filename>Picture_025.jpg</filename>
+		<tooltip>SAP Seminar</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+	<photo>
+		<thumbnail>s_Picture_026.jpg</thumbnail>
+		<filename>Picture_026.jpg</filename>
+		<tooltip>SAP Seminar</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_Picture_031.jpg</thumbnail>
+		<filename>Picture_031.jpg</filename>
+		<tooltip>SAP Seminar</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_18032010770.jpg</thumbnail>
+		<filename>18032010770.jpg</filename>
+		<tooltip>Networking Workshop</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_18032010770.jpg</thumbnail>
+		<filename>18032010770.jpg</filename>
+		<tooltip>Networking Workshop</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_IMG_2583.jpg</thumbnail>
+		<filename>IMG_2583.jpg</filename>
+		<tooltip>Networking Workshop</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_100_0416.jpg</thumbnail>
+		<filename>100_0416.jpg</filename>
+		<tooltip>Networking Workshop</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_DSC03686.jpg</thumbnail>
+		<filename>DSC03686.jpg</filename>
+		<tooltip>Inauguration Ceremony</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+
+	<photo>
+		<thumbnail>s_DSC03707.jpg</thumbnail>
+		<filename>DSC03707.jpg</filename>
+		<tooltip>Inauguration Ceremony</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	<photo>
+		<thumbnail>s_123.jpg</thumbnail>
+		<filename>123.jpg</filename>
+		<tooltip>Database Connectivity Workshop</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	<photo>
+		<thumbnail>s_444.jpg</thumbnail>
+		<filename>444.jpg</filename>
+		<tooltip>Database Connectivity Workshop</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	<photo>
+		<thumbnail>s_1.jpg</thumbnail>
+		<filename>1.jpg</filename>
+		<tooltip>HackTrack</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	<photo>
+		<thumbnail>s_2.jpg</thumbnail>
+		<filename>2.jpg</filename>
+		<tooltip>HackTrack</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	<photo>
+		<thumbnail>s_im_11.jpg</thumbnail>
+		<filename>im_11.jpg</filename>
+		<tooltip>Impulse 2011</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+	
+	<photo>
+		<thumbnail>s_im_12.jpg</thumbnail>
+		<filename>im_12.jpg</filename>
+		<tooltip>Impulse 2012</tooltip>
+		<description><![CDATA[<p></p>]]></description>
+	</photo>
+
+</photos>
